@@ -40,7 +40,7 @@ const Navbar = () => {
     { to: "/", label: "Home" },
     { to: "/doctors", label: "All Doctors" },
     { to: "/about", label: "About" },
-    { to: null, label: "Contact", isScroll: true },
+    { to:"/contact", label: "Contact"},
     {
       to:`https://doctor-admin-dashboard-alpha.vercel.app`,
       label: "Admin Panel",
@@ -66,7 +66,7 @@ const Navbar = () => {
         <div>
           <img
             onClick={() => navigate("/")}
-            className="w-20 h-20 cursor-pointer"
+            className="w-30 h-20 cursor-pointer text-blue-500"
             src={assets.logo}
             alt="Logo"
           />

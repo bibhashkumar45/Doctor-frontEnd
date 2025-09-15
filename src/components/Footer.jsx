@@ -15,9 +15,9 @@ const Footer = () => {
         {/* Company Info */}
         <div>
           <h3 className="text-2xl font-bold mb-4">AppointMe</h3>
-          <p className="text-sm leading-relaxed">Chandigarh University, Mohali, India</p>
-          <p className="text-sm mt-2">+6207907432</p>
-          <p className="text-sm">bibhashk971@gmail.com</p>
+          <p className="text-sm leading-relaxed">Apooint Me is a web app to easily book doctor appointments with real-time availability.
+            It works on all devices and helps patients and doctors manage schedules efficiently.</p>
+
         </div>
 
         {/* Quick Links */}
